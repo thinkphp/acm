@@ -1,1 +1,1 @@
-1. Cuburi
+1. Cuburi https://replit.com/@thinkphp/acm#cuburi.c
