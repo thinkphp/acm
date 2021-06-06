@@ -27,6 +27,7 @@ pizza.in        pizza.out
 #define FOUT "pizza.out"
 
 unsigned int vec[200], k;
+long int n;
 
 void multiply(long int a, long int b) {
 
@@ -50,14 +51,17 @@ void multiply(long int a, long int b) {
 }
 
 void write() {
+
+    printf("%ld taieturi --> ", n); 
     for(int i = k - 1; i >= 0; i--) {
         printf("%d", vec[i]) ;
     }
+    printf(" bucati");
     printf("\n");
 }
 
 int main() {
-  long int n;
+  
   freopen(FIN, "r", stdin);
   //freopen(FOUT, "w", stdout);
   while(scanf("%ld", &n) && n >= 0) {
