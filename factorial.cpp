@@ -1,3 +1,30 @@
+/*
+Factorial.
+
+Se da un numar intreg P. Sa se gaseasca cel mai mic numar natural strict pozitiv N
+pentru care N! are exact P cifre de 0 la sfarsit. Se stie ca
+N! = 1 * 2 * 3 * ...* (N-1) * N;
+
+Date de intrare:
+
+Fisierul fact.in va contine pe prima linie numarul intreg P
+
+Date de iesire:
+
+Pe prima linie a fisierului fact.out se va scrie acel numar N care indeplineste conditiile
+impuse sau -1 daca nu exista un astfel de N.
+
+Restrictii:
+
+0 <= P <= 10^8
+
+Exemple:
+fact.in       fact.out
+0             1
+2             10
+10            45
+*/
+
 #include <iostream>
 #include <fstream>
 #define int long long
